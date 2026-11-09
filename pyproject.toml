@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nyx-contagion"
+version = "1.0.0"
+description = "Autonomous Multi-Surface Honeypot Compiler (Web DOM + Binary PDF) & Cross-Boundary Multi-Agent State-Poisoning Engine extending the Adversarial Cost to Exploit (ACE) mechanism-design framework to multi-agent systems."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Nyx Contagion Research" }]
+keywords = ["prompt-injection", "red-team", "multi-agent", "benchmark", "mechanism-design"]
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "pydantic>=2.6",
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+nyx-contagion = "contagion.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

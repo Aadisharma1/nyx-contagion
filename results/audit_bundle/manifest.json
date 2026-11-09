@@ -1,0 +1,24 @@
+{
+  "bundle": "nyx-contagion AIVSS pentest audit bundle",
+  "bundle_sha256": "38611806de5eb900c1ad2799c95ef4ee45a0698551fd03552a3652dabb07a794",
+  "created_utc": "2026-11-05T23:58:17+00:00",
+  "files": {
+    "benchmark": {
+      "bytes": 427824,
+      "filename": "ace_benchmark.json",
+      "sha256": "6d6ed7708d6966ed1d8189394db0c37605ec4a27ee78287432cc10934a6e6b89"
+    },
+    "report_md": {
+      "bytes": 4482,
+      "filename": "ACE_PENTEST_REPORT.md",
+      "sha256": "7c43c803ce34881f468c232ad331db7809139d2ad1ae661931098f06f6d06469"
+    },
+    "trials_csv": {
+      "bytes": 29700,
+      "filename": "ace_trials.csv",
+      "sha256": "d469c51808850c7190b97bda0774d9453ccd603a7753199c78307f60eadad47e"
+    }
+  },
+  "seed": 20261106,
+  "version": "1.0.0"
+}
